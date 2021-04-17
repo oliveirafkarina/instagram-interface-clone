@@ -1,0 +1,141 @@
+/*zerar*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin:0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+/* Container da esquerda*/
+
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.instagram-phone img{
+    height: 50rem;
+    
+}
+
+/* Container da esquerda */
+
+.instagram-login{
+    display: flex;
+    align-items: center; /* horizontal */
+    flex-direction: column;
+    justify-content: space-around; /* vertical */
+    width: 35%;
+    min-height: 34rem;
+}
+
+.login-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;   
+
+}
+
+.login-group:nth-child(1){
+    min-height: 19rem;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.login-group:nth-child(2){
+    height: 50px;
+}
+
+.instagram-logo{
+    height: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius:50%;
+    overflow: hidden;
+}
+.profile-photo img{
+    height: 7rem;
+}
+
+.login {
+    color: white;
+    background-color: #0095f6;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+.logout{
+    color: #0095f6;
+    font-weight: bolder;
+}
+
+.not-account{
+    color:rgb(160,160,160)
+}
+
+.not-account:nth-child(1){
+    margin-top: 10px;
+}
+
+.link-blue{
+    color:#0095f6;
+    font-weight: bolder;
+}
+
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 80%;
+    height: 50%;
+    padding: 1.3rem 0;
+}
+.download{
+    display: flex;
+    width: 110%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+.text-get-the-app{
+    margin-bottom: 10px;
+}
+.app-download{
+    width: 130px;
+    height: 40px;
+}
